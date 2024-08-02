@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Doggy Villie-ROSTER</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- GOOGLE---FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900
+                &family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!-- FAV-ICON -->
+    <link rel="icon" href="assets/images/fav.png" type="png">
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="assets/css/svg.css">
+    <link rel="stylesheet" href="assets/css/dovillie.css">
+</head>
+
+<body class="">
+    <!-- header -->
+    <header class="header-fixed header">
+        <nav class="container navbar  navbar-expand-lg ">
+            <div class="nav-logo">
+                <a class="navbar-brand" href="index.html">
+                    <div class="">
+                        <img src="assets/images/logo.svg" class="logo" alt="">
+                    </div>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample" aria-expanded="false" onclick="myFunction()">
+                <img src="assets/images/menu.png" alt="">
+            </button>
+            <div class="navbar-collapse w-100 justify-content-end collapse nav-mobile">
+                <div class="nav-bar">
+                    <div class="nav-left">
+                        <a href="index.html" class="nav-link active">
+                            Home
+                        </a>
+                        <a href="racing.html" class="nav-link">
+                            Racing
+                        </a>
+                        <a href="breedings.html" class="nav-link">
+                            Breeding
+                        </a>
+                        <a href="marketplace.html" class="nav-link">
+                            Marketplace
+                        </a>
+                    </div>
+                    <div class="coonect">
+                        <a href="race.html" class="nav-link play-btn">
+                            <svg width="104" height="60" viewBox="0 0 104 39" fill="#FF4CB5"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M99.5 2.5L16.5 1L1.5 30.5L4.5 38H91.5L103 9.5L99.5 2.5Z" stroke="#FF4CB5" />
+                            </svg>
+                            <p>PLAY!</p>
+                        </a>
+                        <a href="connectwallet.html" class="nav-link connect-wallet">
+                            <svg width="186" height="54" viewBox="0 0 186 54" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_104_190)">
+                                    <path
+                                        d="M5 28.1765L30.3787 1.35294L169.783 1L173 11.5882L146.549 37L7.50213 35.2353L5 28.1765Z"
+                                        fill="url(#paint0_linear_104_190)" />
+                                    <path
+                                        d="M5 28.1765L30.3787 1.35294L169.783 1L173 11.5882L146.549 37L7.50213 35.2353L5 28.1765Z"
+                                        stroke="url(#paint1_linear_104_190)" />
+                                    <path
+                                        d="M5 28.1765L30.3787 1.35294L169.783 1L173 11.5882L146.549 37L7.50213 35.2353L5 28.1765Z"
+                                        stroke="#FFB36B" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_104_190" x="0.425781" y="0.499023" width="185.143"
+                                        height="53.0034" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dx="4" dy="8" />
+                                        <feGaussianBlur stdDeviation="4" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 1 0 0 0 0 0.298039 0 0 0 0 0.709804 0 0 0 0.2 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_104_190" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_104_190"
+                                            result="shape" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_104_190" x1="184.081" y1="26.0588" x2="-26.6118"
+                                        y2="166.158" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FF4CB5" />
+                                        <stop offset="0.175816" stop-color="#FF4DB5" />
+                                        <stop offset="0.376158" stop-color="#FFBF63" />
+                                        <stop offset="0.593682" stop-color="#FFBF63" />
+                                        <stop offset="1" stop-color="#FFBF63" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_104_190" x1="77.9192" y1="1" x2="77.9192"
+                                        y2="163.353" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FF4DB5" />
+                                        <stop offset="1" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <p>
+                                Connect Wallet
+                            </p>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offcanvas canvas-pmg offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header"> <button type="button" class="btn-close text-reset"
+                        data-bs-dismiss="offcanvas" aria-label="Close">
+                        x
+                    </button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="nav-bar">
+                        <div class="nav-left">
+                            <a href="#" class="nav-link active">
+                                Marketplace
+                            </a>
+                            <a href="#" class="nav-link">
+                                Builder
+                            </a>
+                            <a href="#" class="nav-link">
+                                Docs
+                            </a>
+                            <a href="#" class="nav-link">
+                                Events
+                            </a>
+                            <a href="#" class="nav-link">
+                                DAO
+                            </a>
+                            <a href="#" class="nav-link">
+                                Blog
+                            </a>
+                        </div>
+                        <div class="join-d">
+                            <a href="#" class="nav-link">
+                                Join Our Discord
+                            </a>
+                            <a href="#" class="secondary-btn" data-bs-toggle="modal" data-bs-target="#connectwallet">
+                                Start Exploring
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="cal">
+        <div class="container container-1390">
+            <div class="racing-tab-wrapper">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_1225)">
+                                    <path d="M4.16797 4.16663V17.5" stroke="white" stroke-opacity="0.6"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M15.832 4.16663V11.6666" stroke="white" stroke-opacity="0.6"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M4.16797 4.16666C4.94684 3.40321 5.994 2.97559 7.08464 2.97559C8.17527 2.97559 9.22243 3.40321 10.0013 4.16666C10.7802 4.9301 11.8273 5.35773 12.918 5.35773C14.0086 5.35773 15.0558 4.9301 15.8346 4.16666"
+                                        stroke="white" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M4.16797 11.6667C4.94684 10.9032 5.994 10.4756 7.08464 10.4756C8.17527 10.4756 9.22243 10.9032 10.0013 11.6667C10.7802 12.4301 11.8273 12.8577 12.918 12.8577C14.0086 12.8577 15.0558 12.4301 15.8346 11.6667"
+                                        stroke="white" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_1225">
+                                        <rect width="20" height="20" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            General
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">
+                            Notifications
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile1" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">
+                            Advanced
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="race-border-wrapper">
+            <form action="" class="activity">
+                <div class="container container-1390">
+                    <div class="racing-tab-wrapper">
+                        <div class="tab-content race-table-wrapper" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">
+                                <div class="transfer-wrapper">
+                                    <div class="transfer-card-wrapper">
+                                        <div class="card-heading">
+                                            <h1>Transfer your racedogs</h1>
+                                            <p>You have 0 racehorses on your wallet linked to metamask account. You can
+                                                transfer them to your email wallet or others.</p>
+                                        </div>
+                                        <a href="stud.html">
+                                            <button class="tag-btn tagfamn-btn">
+                                                Select Racedog
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="general-wrapper ">
+                                        <h5>General</h5>
+                                        <form action="">
+                                            <div class="set-form">
+                                                <div class="">
+                                                    <div class="form-group">
+                                                        <label for="">
+                                                            STABLE TITLE
+                                                        </label>
+                                                        <input class="form-control" placeholder="stable 37872603"
+                                                            type="text" name="" id="">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="">
+                                                            STABLE DESCRIPTION
+                                                        </label>
+
+                                                        <textarea class="form-control" name="" id="" cols="30"
+                                                            rows="8"></textarea>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="">
+                                                            EMAIL
+                                                        </label>
+                                                        <input class="form-control" placeholder="stable 37872603"
+                                                            type="text" name="" id="">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="">
+                                                            DISCORD
+                                                        </label>
+                                                        <input class="form-control" placeholder="stable 37872603"
+                                                            type="text" name="" id="">
+                                                    </div>
+                                                    <div class="ChkFrm">
+                                                        <div class="form-check form-group mt-2 pl-0">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                id="exampleCheck1">
+                                                            <label class="form-check-label Tx14R989b"
+                                                                for="exampleCheck1">
+                                                                <a href="#">I am sure I want to update</a></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <button class="tag-btn tagfamn-btn">
+                                                            Select Racedog
+                                                        </button>
+                                                        <button class="tag-btn tagfamn-btn">
+                                                            Discard
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <label for="">
+                                                        STABLE IMAGE
+                                                    </label>
+                                                    <div class="upload-wrapper">
+                                                        <div class="thumb">
+                                                            <img src="assets/images/dog.png" id="output" alt="">
+                                                        </div>
+                                                        <div class="thumb-btn">
+                                                            <input type="file" accept="image/*" name="image" id="file"
+                                                                onchange="loadFile(event)" style="display: none;">
+                                                            <label class="svg-label" for="file"
+                                                                style="cursor: pointer;">
+                                                                <svg width="20" height="17" viewBox="0 0 20 17"
+                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path
+                                                                        d="M1.21799 5.09204L1.88624 5.43253L1.21799 5.09204ZM2.0918 4.21799L2.43229 4.88624L2.0918 4.21799ZM2.0918 15.782L2.43229 15.1137L2.0918 15.782ZM1.21799 14.908L0.549732 15.2485H0.549732L1.21799 14.908ZM18.7822 14.908L18.114 14.5675L18.7822 14.908ZM17.9078 15.782L17.5673 15.1137L17.9078 15.782ZM18.7822 5.09204L18.114 5.43253L18.7822 5.09204ZM17.9078 4.21799L18.2483 3.54973L17.9078 4.21799ZM6.49072 2.52866L5.77921 2.29149L6.49072 2.52866ZM6.59607 2.22974L5.90392 1.9409L6.59607 2.22974ZM8.29443 1.00541L8.23929 0.257442L8.29443 1.00541ZM7.27637 3.99377L7.35982 3.24843H7.35982L7.27637 3.99377ZM6.40967 2.7913L5.67618 2.63477L6.40967 2.7913ZM13.5098 2.52869L14.2213 2.29152L13.5098 2.52869ZM13.5908 2.7913L12.8573 2.94783V2.94783L13.5908 2.7913ZM12.724 3.99377L12.6405 3.24843L12.724 3.99377ZM13.4043 2.22974L12.7121 2.51858L13.4043 2.22974ZM11.7056 1.00541L11.6504 1.75338L11.7056 1.00541ZM10 12.25C8.75736 12.25 7.75 11.2426 7.75 10H6.25C6.25 12.0711 7.92893 13.75 10 13.75V12.25ZM7.75 10C7.75 8.75736 8.75736 7.75 10 7.75V6.25C7.92893 6.25 6.25 7.92893 6.25 10H7.75ZM10 7.75C11.2426 7.75 12.25 8.75736 12.25 10H13.75C13.75 7.92893 12.0711 6.25 10 6.25V7.75ZM12.25 10C12.25 11.2426 11.2426 12.25 10 12.25V13.75C12.0711 13.75 13.75 12.0711 13.75 10H12.25ZM18.25 7.20001V12.8H19.75V7.20001H18.25ZM15.8002 15.25H4.2002V16.75H15.8002V15.25ZM1.75 12.8V7.20001H0.25V12.8H1.75ZM4.2002 4.75H15.8002V3.25H4.2002V4.75ZM1.75 7.20001C1.75 6.62758 1.75058 6.24337 1.77476 5.9475C1.79822 5.66038 1.8401 5.5231 1.88624 5.43253L0.549732 4.75155C0.377889 5.08881 0.310777 5.44546 0.279739 5.82535C0.249417 6.19647 0.25 6.65234 0.25 7.20001H1.75ZM4.2002 3.25C3.65251 3.25 3.19656 3.24942 2.82534 3.27974C2.44541 3.31077 2.08861 3.37787 1.7513 3.54973L2.43229 4.88624C2.52281 4.84012 2.66016 4.79822 2.94745 4.77476C3.24344 4.75058 3.62777 4.75 4.2002 4.75V3.25ZM1.88624 5.43253C2.00618 5.19714 2.19728 5.00598 2.43229 4.88624L1.7513 3.54973C1.23366 3.81348 0.813285 4.2343 0.549732 4.75155L1.88624 5.43253ZM4.2002 15.25C3.62779 15.25 3.24345 15.2494 2.94746 15.2252C2.66018 15.2018 2.52282 15.1599 2.43229 15.1137L1.7513 16.4502C2.0886 16.6221 2.44538 16.6892 2.82532 16.7202C3.19655 16.7506 3.6525 16.75 4.2002 16.75V15.25ZM0.25 12.8C0.25 13.3477 0.249417 13.8035 0.279739 14.1747C0.310777 14.5546 0.37789 14.9112 0.549732 15.2485L1.88624 14.5675C1.8401 14.4769 1.79822 14.3396 1.77476 14.0525C1.75058 13.7566 1.75 13.3724 1.75 12.8H0.25ZM2.43229 15.1137C2.19725 14.994 2.00617 14.8028 1.88624 14.5675L0.549732 15.2485C0.813301 15.7657 1.2337 16.1865 1.7513 16.4502L2.43229 15.1137ZM18.25 12.8C18.25 13.3725 18.2495 13.7567 18.2253 14.0526C18.2019 14.3398 18.1601 14.477 18.114 14.5675L19.4505 15.2485C19.6224 14.9111 19.6894 14.5544 19.7204 14.1746C19.7506 13.8035 19.75 13.3476 19.75 12.8H18.25ZM15.8002 16.75C16.3479 16.75 16.8037 16.7506 17.1747 16.7202C17.5546 16.6892 17.9111 16.6221 18.2483 16.4502L17.5673 15.1137C17.4767 15.1599 17.3395 15.2018 17.0525 15.2252C16.7567 15.2494 16.3726 15.25 15.8002 15.25V16.75ZM18.114 14.5675C17.9943 14.8023 17.8028 14.9937 17.5673 15.1137L18.2483 16.4502C18.7654 16.1868 19.1867 15.7662 19.4505 15.2485L18.114 14.5675ZM19.75 7.20001C19.75 6.65241 19.7506 6.19654 19.7204 5.82547C19.6894 5.44562 19.6224 5.08889 19.4505 4.75155L18.114 5.43253C18.1601 5.52301 18.2019 5.66022 18.2253 5.94738C18.2495 6.2433 18.25 6.62751 18.25 7.20001H19.75ZM15.8002 4.75C16.3726 4.75 16.7567 4.75058 17.0525 4.77476C17.3395 4.79821 17.4767 4.84008 17.5673 4.88624L18.2483 3.54973C17.9111 3.37791 17.5545 3.31078 17.1747 3.27974C16.8036 3.24942 16.3479 3.25 15.8002 3.25V4.75ZM19.4505 4.75155C19.1867 4.2338 18.7654 3.81323 18.2483 3.54973L17.5673 4.88624C17.8028 5.00624 17.9943 5.19764 18.114 5.43253L19.4505 4.75155ZM12.449 3.25H7.55078V4.75H12.449V3.25ZM8.61133 1.75H11.3886V0.25H8.61133V1.75ZM7.20224 2.76583C7.2574 2.60034 7.27307 2.55487 7.28822 2.51858L5.90392 1.9409C5.86236 2.04049 5.8267 2.149 5.77921 2.29149L7.20224 2.76583ZM8.61133 0.25C8.46114 0.25 8.34692 0.249508 8.23929 0.257442L8.34957 1.75338C8.38879 1.75049 8.43689 1.75 8.61133 1.75V0.25ZM7.28822 2.51858C7.4697 2.0837 7.8799 1.78801 8.34957 1.75338L8.23929 0.257442C7.20556 0.333649 6.303 0.984568 5.90392 1.9409L7.28822 2.51858ZM7.55078 3.25C7.475 3.25 7.42812 3.24997 7.39303 3.24934C7.35815 3.24871 7.35314 3.24768 7.35982 3.24843L7.19292 4.73912C7.30095 4.75121 7.42733 4.75 7.55078 4.75V3.25ZM5.77921 2.29149C5.7404 2.40793 5.6989 2.52832 5.67618 2.63477L7.14315 2.94783C7.14169 2.95469 7.14225 2.94976 7.15279 2.91616C7.16337 2.88246 7.17822 2.83788 7.20224 2.76583L5.77921 2.29149ZM7.35982 3.24843C7.21292 3.23198 7.1123 3.09238 7.14315 2.94783L5.67618 2.63477C5.46024 3.64669 6.16465 4.62399 7.19292 4.73912L7.35982 3.24843ZM12.7983 2.76586C12.8222 2.83778 12.8371 2.88236 12.8476 2.91597C12.8581 2.94945 12.8587 2.95451 12.8573 2.94783L14.3242 2.63477C14.3015 2.52841 14.2602 2.40843 14.2213 2.29152L12.7983 2.76586ZM12.449 4.75C12.5723 4.75 12.6994 4.75122 12.8074 4.73912L12.6405 3.24843C12.6473 3.24767 12.6422 3.24871 12.6071 3.24934C12.5718 3.24997 12.5247 3.25 12.449 3.25V4.75ZM12.8573 2.94783C12.8881 3.09228 12.7875 3.23197 12.6405 3.24843L12.8074 4.73912C13.8356 4.624 14.5402 3.64679 14.3242 2.63477L12.8573 2.94783ZM14.2213 2.29152C14.1735 2.14821 14.1379 2.0403 14.0964 1.9409L12.7121 2.51858C12.7274 2.55505 12.7434 2.60119 12.7983 2.76586L14.2213 2.29152ZM11.3886 1.75C11.563 1.75 11.6112 1.75049 11.6504 1.75338L11.7607 0.257442C11.6531 0.249508 11.5388 0.25 11.3886 0.25V1.75ZM14.0964 1.9409C13.6973 0.984409 12.7943 0.333637 11.7607 0.257442L11.6504 1.75338C12.1203 1.78802 12.5307 2.08385 12.7121 2.51858L14.0964 1.9409Z"
+                                                                        fill="white" />
+                                                                </svg>
+                                                            </label>
+                                                        </div>
+                                                        <script>
+                                                            var loadFile = function (event) {
+                                                                var image = document.getElementById('output');
+                                                                image.src = URL.createObjectURL(event.target.files[0]);
+                                                            };
+                                                        </script>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">
+                                <div class="notification-wrap">
+                                    <h1>Notifications</h1>
+                                    <div class="toggle-pmg my-2 my-lg-0">
+                                        <div class="toggle-s">
+                                            <label class="switch  dark-theme">
+                                                <input type="checkbox" checked="" id="test" value="supress">
+                                                <span class="slider round"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile1" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">
+                                <div class="notification-wrap">
+                                    <h1>Advanced Settings</h1>
+                                    <button class="tag-btn tagfamn-btn">
+                                        Get API Key
+                                    </button>
+                                    <p>API KEY</p>
+                                    <p>API Key allows you investigate Assetfinx API data, you can use it to create
+                                        comparison lists, various charts, etc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </main>
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+            </div>
+            <h6>Our community grows stronger every day. Please follow our social platforms to get the most up-to-date,
+                accurate Assetfinx information.</h6>
+            <div class="social-icos">
+                <div>
+                    <a href="">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_912)">
+                                <path class="circ"
+                                    d="M17.8906 35.3911C27.5556 35.3911 35.3906 27.5561 35.3906 17.8911C35.3906 8.22611 27.5556 0.391113 17.8906 0.391113C8.22563 0.391113 0.390625 8.22611 0.390625 17.8911C0.390625 27.5561 8.22563 35.3911 17.8906 35.3911Z"
+                                    fill="#B4B4CA" />
+                                <path
+                                    d="M8.39762 17.512L25.2706 11.0064C26.0537 10.7235 26.7376 11.1974 26.4839 12.3816L26.4853 12.3801L23.6124 25.9149C23.3995 26.8745 22.8293 27.1079 22.0316 26.6557L17.6566 23.4314L15.5464 25.4643C15.3131 25.6976 15.1162 25.8945 14.6641 25.8945L14.9747 21.4422L23.0831 14.117C23.4359 13.8064 23.0043 13.6314 22.5391 13.9406L12.5189 20.2493L8.1993 18.9018C7.26155 18.6043 7.24118 17.9641 8.39762 17.512Z"
+                                    fill="#201C1C" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_912">
+                                    <rect width="35" height="35" fill="white"
+                                        transform="translate(0.390625 0.391113)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Telegram</p>
+
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_917)">
+                                <path class="circ"
+                                    d="M17.5 35C27.165 35 35 27.165 35 17.5C35 7.835 27.165 0 17.5 0C7.835 0 0 7.835 0 17.5C0 27.165 7.835 35 17.5 35Z"
+                                    fill="#B4B4CA" />
+                            </g>
+                            <g clip-path="url(#clip1_1_917)">
+                                <path
+                                    d="M27.4783 11.8736C26.7539 12.1913 25.9821 12.4019 25.1774 12.5042C26.0052 12.0099 26.637 11.2332 26.9341 10.297C26.1623 10.7572 25.3101 11.0823 24.4019 11.2637C23.669 10.4833 22.6245 10 21.485 10C19.2743 10 17.4944 11.7944 17.4944 13.9943C17.4944 14.3108 17.5212 14.6151 17.587 14.9049C14.2671 14.743 11.3296 13.1518 9.35617 10.728C9.01165 11.3257 8.80957 12.0099 8.80957 12.7464C8.80957 14.1294 9.52174 15.3553 10.5833 16.065C9.94174 16.0529 9.31235 15.8666 8.77913 15.5732C8.77913 15.5854 8.77913 15.6012 8.77913 15.617C8.77913 17.5576 10.1633 19.1694 11.9784 19.5407C11.6534 19.6296 11.2991 19.6722 10.9315 19.6722C10.6758 19.6722 10.4177 19.6576 10.1755 19.604C10.6929 21.1854 12.161 22.348 13.9068 22.3857C12.5482 23.4485 10.8231 24.0889 8.95565 24.0889C8.62817 24.0889 8.31409 24.0743 8 24.0341C9.76887 25.1748 11.8652 25.8261 14.1259 25.8261C21.4741 25.8261 25.4915 19.7391 25.4915 14.463C25.4915 14.2864 25.4854 14.116 25.4769 13.9468C26.2694 13.3843 26.9353 12.6819 27.4783 11.8736Z"
+                                    fill="#201C1C" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_917">
+                                    <rect width="35" height="35" fill="white" />
+                                </clipPath>
+                                <clipPath id="clip1_1_917">
+                                    <rect width="19.4783" height="16" fill="white" transform="translate(8 10)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_924)">
+                                <path d="M31.2547 4.65454H3.42578V27.8453H31.2547V4.65454Z" fill="#201C1C" />
+                                <path class="circ"
+                                    d="M13.6541 15.5823C12.5966 15.5823 11.7617 16.5099 11.7617 17.6416C11.7617 18.7733 12.6151 19.701 13.6541 19.701C14.7116 19.701 15.5464 18.7733 15.5464 17.6416C15.565 16.5099 14.7116 15.5823 13.6541 15.5823ZM20.4258 15.5823C19.3683 15.5823 18.5334 16.5099 18.5334 17.6416C18.5334 18.7733 19.3868 19.701 20.4258 19.701C21.4833 19.701 22.3182 18.7733 22.3182 17.6416C22.3182 16.5099 21.4833 15.5823 20.4258 15.5823Z"
+                                    fill="#B4B4CA" />
+                                <path class="circ"
+                                    d="M29.4411 0.0168457H4.58063C2.48418 0.0168457 0.777344 1.72369 0.777344 3.83868V28.9218C0.777344 31.0368 2.48418 32.7436 4.58063 32.7436H25.6193L24.636 29.3114L27.0107 31.5192L29.2556 33.5971L33.2444 37.1221V3.83868C33.2444 1.72369 31.5376 0.0168457 29.4411 0.0168457ZM22.2798 24.2465C22.2798 24.2465 21.6119 23.4488 21.0553 22.7438C23.4857 22.0573 24.4134 20.536 24.4134 20.536C23.6527 21.0369 22.9292 21.3894 22.2798 21.6306C21.3522 22.0202 20.4617 22.28 19.5897 22.4284C17.8086 22.7623 16.176 22.6696 14.7846 22.4098C13.7271 22.2058 12.818 21.9089 12.0573 21.6121C11.6306 21.4451 11.1668 21.241 10.703 20.9813C10.6473 20.9442 10.5917 20.9256 10.536 20.8885C10.4989 20.87 10.4804 20.8514 10.4618 20.8329C10.1279 20.6473 9.94233 20.5175 9.94233 20.5175C9.94233 20.5175 10.8329 22.0017 13.189 22.7067C12.6325 23.4117 11.946 24.2465 11.946 24.2465C7.84589 24.1167 6.28747 21.4266 6.28747 21.4266C6.28747 15.4526 8.95904 10.6104 8.95904 10.6104C11.6306 8.6067 14.1723 8.66236 14.1723 8.66236L14.3579 8.88499C11.0184 9.84973 9.47851 11.3154 9.47851 11.3154C9.47851 11.3154 9.88667 11.0928 10.5731 10.7774C12.5582 9.90538 14.1352 9.6642 14.7846 9.60854C14.8959 9.58999 14.9886 9.57144 15.1 9.57144C16.2317 9.42302 17.5118 9.38591 18.8476 9.53433C20.6101 9.73841 22.5024 10.2579 24.4319 11.3154C24.4319 11.3154 22.9663 9.92394 19.8123 8.9592L20.0721 8.66236C20.0721 8.66236 22.6138 8.6067 25.2853 10.6104C25.2853 10.6104 27.9569 15.4526 27.9569 21.4266C27.9569 21.4266 26.3799 24.1167 22.2798 24.2465Z"
+                                    fill="#B4B4CA" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_1_924">
+                                    <rect width="32.4671" height="37.1052" fill="white"
+                                        transform="translate(0.777344 0.0168457)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Discord</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-dog">
+            <img src="assets/images/footerdog.png" alt="">
+        </div>
+    </footer>
+
+    <!--Script files-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
